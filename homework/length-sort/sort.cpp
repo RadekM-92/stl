@@ -1,8 +1,7 @@
-#include <iostream>
 #include <algorithm>
+#include <iostream>
 
 #include "sort.hpp"
-
 
 std::deque<std::string> lengthSort(const std::forward_list<std::string>& flist) {
     std::deque<std::string> deq;
